@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/*Header*/
+
+.encabezado {
+    background-image: url("./img/header.jpg");
+    height: 115vh;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+.menuEncabezado {
+    display: flex;
+    margin: 0% 10%;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 1%;
+    word-spacing: 30px;
+    }
+
+.PrimerH1 {
+    margin:5% 10%;
+    }
+
+/*Section 1*/
+
+.ContenedorIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 0% 15%;
+    margin-left: 13%;
+}
+
+.Icon {
+   display: inline;
+   width: 100%;
+   margin: 2%;
+}
+
+.Icon img {
+    display: flex;
+    justify-content:space-between;
+    margin-left: 35%;
+}
+
+.Icon h1 {
+    text-align: center;
+    margin: 1%;
+    margin-left: 0%;
+}
+
+.Icon p {
+    text-align: center;
+    line-height: 30px;
+
+}
+
+h1 {
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 150%
+}
+
+/*Main*/
+
+.TarjetasVentas{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 1% 12%;
+}
+
+.TarjetasVentas div img{
+    width: 95%;
+}
+
+.TarjetasVentas div{
+    width: 35%;
+    text-align: justify;
+}
+
+.TarjetasVentas h3{
+    text-align: justify;
+    margin: 5%;
+ 
+}
+
+.TarjetasVentas p{
+    text-align: justify;
+    margin: 2% 5%;
+    padding: 0%;
+}
+
+.TarjetasVentas h5{
+    color: #5da302;
+    text-align: justify;
+    margin: 1% 5% 5%;
+}
+
+.LogosAmbientes{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 15%;    
+}
+
+.LogosAmbientes img{
+    margin:0% 10%
+}
+
+.BotonVerPropiedad {
+    background-color: #8c762d;
+    border: none;
+    color: white;
+    width: 80%;
+    margin:5% 5%;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.BotonVerTodas{
+    background-color: #68b81e;
+    border: none;
+    color: white;
+    width: 7%;
+    margin: 1%;
+    padding: 10px 10px;
+    margin-left: 80%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+/*Section 2*/
+
+.Section2{
+    background-image: url("./img/encuentra.jpg");
+    height: 40vh;
+    padding-left: 15%;
+    background-position:center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    }
+
+.Section2 h3{
+    font-size: 2em;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.Section2 p{
+    margin: 3% 5%;
+    padding: 0%;
+}
+
+.BotonContactanos{
+    background-color: #8c762d;
+    border: none;
+    color: white;
+    width: 9%;
+    margin: 1%;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    margin-left: 4%;
+}
+
+/*BLOG*/
+
+.Section3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.NuestroBlog{
+    display:flex;
+    flex-direction: row;
+    margin:0% 0% 1% 5%;
+    height: 30%;
+    width: 80%;
+}
+
+.NuestroBlog img{
+    width:100%;
+    margin: 0% 50%;
+}
+
+.posteo{
+    margin: 1% 0% 17% 19%;
+    width:50vw;
+    text-align:justify;
+}
+
+.posteo h3{
+    font-size:130%;
+}
+
+.posteo p{
+    margin-top: 5%;
+    line-height: 30px;
+
+}
+
+.posteo span{
+    color:#ce7706
+}    
+
+hr{
+    width:27%;
+    border: 2px solid #6cc41b;
+    margin-top: 3%;
+    }
+
+.Testimoniales{
+    background-color: #6cc41b;
+    width:47%;
+    height: 60%;
+    margin-left: 27%;
+    margin-top: 0%;
+    border-radius: 5%;
+    line-height: 2em;
+    font-size:x-large;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    }   
+
+.Testimoniales img{
+    margin: 50%;
+    height: 10%;
+}
+
+.Testimoniales p{
+margin:10%;
+
+}
+.firma{
+    text-align: right;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #323232;
+    color: white;
+    height: 10vh;
+    word-spacing: 30px;
+    padding-top: 1%;
+}
+
+.DatosFooter {
+    margin-left: 9%;
+}
+
+footer p {
+    margin-right: 10%;
+    justify-items: right;
+    word-spacing: 0px;
+}
+
